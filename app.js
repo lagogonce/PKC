@@ -5,7 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/expressSampleProject');
+//mongoose.connect('mongodb://localhost/expressSampleProject');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -26,8 +26,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //attach database to request
 app.use(function(req, res, next) {
-  req.db = mongoose.connection;
-  next();
+  //req.db = mongoose.connection;
+  //next();
 });
 
 app.use('/', routes);
