@@ -1,0 +1,4 @@
+0. initialize expressJS application: `express expressSampleProject`
+0. goto folder, and install all dependences: `cd expressSampleProject` and `npm install`
+0. start server: `bin/www`
+0.
