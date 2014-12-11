@@ -17,5 +17,8 @@
     "jade": "~1.6.0",
     "mongodb": "*",
     "mongoose": "*"
+  },
+  "engines": {
+    "node": "0.10.30"
   }
 }
